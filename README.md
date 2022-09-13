@@ -17,3 +17,6 @@ La función "buscar_codigo_ciclo" recibe como variable de entrada la coordenada 
 La función "detectar_código" recibe como variables de entrada la coordenada donde se encuentra en ese momento el rover y la coordenada exacta del código ArUco. Verifica si las coordenadas en "x" y "y" de estos dos puntos son iguales, si es asi la variable detectar se vuelve verdadera y cuando regresa a la función que busca el codigo, detiene el ciclo.
 
 La función "main" tiene la coordenada inicial, recibe la coordenada aproximada del código ArUco, recibe el angulo y distancia para mover el rover, llama a la función para crear la screen de turtle, imprimer descripciones y resultados. 
+
+
+Finalmente hay una función que se llama "buscar_codigo_limitado" que busca el codigo ArUco, pero con ciertos intentos, lo inclui en el codigo como comentario como una opción secundaria del reto. 
